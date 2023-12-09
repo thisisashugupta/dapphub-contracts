@@ -1,9 +1,8 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.13;
+pragma solidity ^0.8.21;
 
-import "forge-std/Contract.sol";
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import { Ownable } from "dependencies/access/Ownable.sol";
 
 contract DappRegistry is Ownable {
     // Event for new dApp registration
